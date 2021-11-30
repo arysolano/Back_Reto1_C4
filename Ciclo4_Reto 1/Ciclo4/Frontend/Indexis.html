@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ccsito.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Iniciar Sesion</title>
+</head>
+
+<body>
+    <br><br>
+    <div>
+        <h1 style="color: cadetblue; text-align: center;">Inicio de sesion</h1>
+    </div>
+    <br><br>
+    
+    <div id="emailD">
+        <div style="text-align: center;">
+          <label >E-mail</label>  
+        </div>
+        <input id="emailN" type="text" placeholder="Email" class="form-control">
+    </div>
+    <div id="emailIn" style="text-align: center;"></div>
+    
+    <div></div>
+    <div id="emailD">
+        <div style="text-align: center;">
+            <label >Password</label>  
+          </div>
+        <input type="password" id="password" placeholder="Contraseña" class="form-control">
+    </div>
+    <div id="passIn" style="text-align: center;"></div>
+    <br>
+    <div id="botonC">
+        <button style="background: cadetblue; color: aliceblue;" onclick="validacionUsuario()"
+            class="btn btn-secondary mb-2">Iniciar Sesion</button>
+    </div>
+    <br></br>
+    <div id="textoCreacion">
+        No tiene una cuenta? <a href="Indexru.html">Cree una!</a>
+    </div>
+    <br>
+    <div id="verificacion" style="text-align: center;"></div>
+
+    <div id="validacion" style="text-align: center;"></div>
+
+
+</body>
+
+</html>
